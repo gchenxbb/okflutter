@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class ChannelPage extends StatefulWidget {
+  ChannelPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _MyChannelState createState() => _MyChannelState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyChannelState extends State<ChannelPage> {
   static const platform_battery =
       const MethodChannel('com.pac.framework.plugins/battery'); //电量
   static const platform_toast =
@@ -23,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String _batteryLevel = 'Unknown battery level.';
   String _receivedMsg = "Received message ";
 
-  _MyHomePageState() {
+  _MyChannelState() {
     _platform_string.setMethodCallHandler((handler) {
       switch (handler.method) {
         case "getDartString":
