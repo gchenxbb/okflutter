@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterchannel/app.dart';
 import 'package:flutterchannel/page/channel_page.dart';
 import 'package:flutterchannel/page/login_page.dart';
 import 'package:flutterchannel/widget/bottom_bar.dart';
@@ -107,10 +108,21 @@ class _HomePageState extends State<HomePage> {
                         Navigator.push(
                           context,
                           new MaterialPageRoute(
-                              builder: (context) => new ChannelPage(title: 'Flutter channel  Page')),
+                              builder: (context) => new ChannelPage(
+                                  title: 'Flutter channel  Page')),
                         );
                       },
                       child: new Text("channel 页面"),
+                    ),
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new App()),
+                        );
+                      },
+                      child: new Text("bloc 页面"),
                     ),
                   ],
                 ),
