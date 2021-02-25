@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:flutterchannel/login/user_repository.dart';
+import 'package:flutterko/login/user_repository.dart';
 import 'package:flutter/cupertino.dart';
 import './bloc.dart';
 

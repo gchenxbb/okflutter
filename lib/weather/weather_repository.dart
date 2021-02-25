@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:flutterchannel/weather/weather.dart';
+import 'package:flutterko/weather/weather.dart';
 import 'package:meta/meta.dart';
-import 'package:flutterchannel/weather/weather_apiclient.dart';
+import 'package:flutterko/weather/weather_apiclient.dart';
 
 class WeatherRepository {
   final WeatherApiClient weatherApiClient;

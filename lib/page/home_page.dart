@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutterchannel/app.dart';
-import 'package:flutterchannel/page/channel_page.dart';
-import 'package:flutterchannel/page/login_page.dart';
-import 'package:flutterchannel/widget/bottom_bar.dart';
-import 'package:flutterchannel/widget/draw_widget.dart';
-import 'package:flutterchannel/widget/viewpager_tab.dart';
-import 'package:flutterchannel/widget/mytab_controller.dart';
-import 'package:flutterchannel/page/counter_page.dart';
+import 'package:flutterko/app.dart';
+import 'package:flutterko/page/channel_page.dart';
+import 'package:flutterko/page/login_page.dart';
+import 'package:flutterko/widget/bottom_bar.dart';
+import 'package:flutterko/widget/draw_widget.dart';
+import 'package:flutterko/widget/viewpager_tab.dart';
+import 'package:flutterko/widget/mytab_controller.dart';
+import 'package:flutterko/page/counter_page.dart';
 
 import 'dart:async';
 import 'dart:ui';

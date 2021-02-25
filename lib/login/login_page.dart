@@ -1,7 +1,7 @@
-import 'package:flutterchannel/login/bloc.dart';
-import 'package:flutterchannel/login/login_bloc.dart';
-import 'package:flutterchannel/login/login_event.dart';
-import 'package:flutterchannel/login/user_repository.dart';
+import 'package:flutterko/login/bloc.dart';
+import 'package:flutterko/login/login_bloc.dart';
+import 'package:flutterko/login/login_event.dart';
+import 'package:flutterko/login/user_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

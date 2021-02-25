@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import './bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:flutterchannel/timer/ticker.dart';
+import 'package:flutterko/timer/ticker.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final int _duration = 60;

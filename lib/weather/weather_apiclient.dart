@@ -1,4 +1,4 @@
-import 'package:flutterchannel/weather/weather.dart';
+import 'package:flutterko/weather/weather.dart';
 import 'package:meta/meta.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';

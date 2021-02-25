@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import './bloc.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutterchannel/list/model.dart';
+import 'package:flutterko/list/model.dart';
 import 'dart:convert';
 
 class PostBlocBloc extends Bloc<PostBlocEvent, PostBlocState> {

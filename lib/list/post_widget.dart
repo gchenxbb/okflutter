@@ -1,5 +1,5 @@
-import 'package:flutterchannel/list/bloc.dart';
-import 'package:flutterchannel/list/model.dart';
+import 'package:flutterko/list/bloc.dart';
+import 'package:flutterko/list/model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart' as prefix0;
 import 'package:flutter_bloc/flutter_bloc.dart';

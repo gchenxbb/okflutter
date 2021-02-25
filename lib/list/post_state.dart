@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:flutterchannel/list/model.dart';
+import 'package:flutterko/list/model.dart';
 
 @immutable
 abstract class PostBlocState extends Equatable {

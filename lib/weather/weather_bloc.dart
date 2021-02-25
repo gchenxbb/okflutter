@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:flutterchannel/weather/weather.dart';
-import 'package:flutterchannel/weather/weather_repository.dart';
+import 'package:flutterko/weather/weather.dart';
+import 'package:flutterko/weather/weather_repository.dart';
 import 'package:flutter/cupertino.dart';
 import './bloc.dart';
 

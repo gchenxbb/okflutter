@@ -1,13 +1,13 @@
-import 'package:flutterchannel/login/authentication_bloc.dart';
-import 'package:flutterchannel/login/authentication_event.dart';
-import 'package:flutterchannel/login/bloc.dart';
-import 'package:flutterchannel/login/home_page.dart';
-import 'package:flutterchannel/login/login_page.dart';
-import 'package:flutterchannel/login/user_repository.dart';
+import 'package:flutterko/login/authentication_bloc.dart';
+import 'package:flutterko/login/authentication_event.dart';
+import 'package:flutterko/login/bloc.dart';
+import 'package:flutterko/login/home_page.dart';
+import 'package:flutterko/login/login_page.dart';
+import 'package:flutterko/login/user_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterchannel/login/splash_page.dart';
-import 'package:flutterchannel/login/authentication_state.dart';
+import 'package:flutterko/login/splash_page.dart';
+import 'package:flutterko/login/authentication_state.dart';
 
 class LoginMainPage extends StatelessWidget {
   @override

@@ -1,7 +1,7 @@
-import 'package:flutterchannel/weather/bloc.dart';
-import 'package:flutterchannel/weather/weather_widget.dart';
-import 'package:flutterchannel/weather/weather_apiclient.dart';
-import 'package:flutterchannel/weather/weather_repository.dart';
+import 'package:flutterko/weather/bloc.dart';
+import 'package:flutterko/weather/weather_widget.dart';
+import 'package:flutterko/weather/weather_apiclient.dart';
+import 'package:flutterko/weather/weather_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

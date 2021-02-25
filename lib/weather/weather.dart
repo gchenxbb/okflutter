@@ -1,4 +1,4 @@
-import 'package:flutterchannel/weather/weather_condition.dart';
+import 'package:flutterko/weather/weather_condition.dart';
 import 'package:equatable/equatable.dart';
 
 //extend Equatable to compare Weather instances.

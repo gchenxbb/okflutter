@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterchannel/widget/flulist.dart';
+import 'package:flutterko/widget/flulist.dart';
 
 //DefaultTabController
 class TabViewHomeWidget extends StatefulWidget {

@@ -1,10 +1,10 @@
-import 'package:flutterchannel/list/post_page.dart';
-import 'package:flutterchannel/login/main_page.dart';
-import 'package:flutterchannel/login/login_page.dart';
-import 'package:flutterchannel/weather/app.dart';
+import 'package:flutterko/list/post_page.dart';
+import 'package:flutterko/login/main_page.dart';
+import 'package:flutterko/login/login_page.dart';
+import 'package:flutterko/weather/app.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterchannel/timer/timer_page.dart';
-import 'package:flutterchannel/counter/counter_page.dart';
+import 'package:flutterko/timer/timer_page.dart';
+import 'package:flutterko/counter/counter_page.dart';
 
 class App extends StatelessWidget {
   @override

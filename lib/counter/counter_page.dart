@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterchannel/counter/counter_bloc.dart';
+import 'package:flutterko/counter/counter_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterchannel/counter/counter_widget.dart';
+import 'package:flutterko/counter/counter_widget.dart';
 
 class CounterPage extends StatelessWidget {
   @override

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterchannel/timer/bloc.dart';
-import 'package:flutterchannel/timer/action_widget.dart';
+import 'package:flutterko/timer/bloc.dart';
+import 'package:flutterko/timer/action_widget.dart';
 
 class Timer extends StatelessWidget {
   static const TextStyle timerTextStyle = TextStyle(

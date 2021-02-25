@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterchannel/counter/counter_bloc.dart';
+import 'package:flutterko/counter/counter_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class Counter extends StatelessWidget {

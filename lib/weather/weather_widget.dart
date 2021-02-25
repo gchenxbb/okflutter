@@ -1,8 +1,8 @@
-import 'package:flutterchannel/weather/lastupdated.dart';
-import 'package:flutterchannel/weather/location.dart';
+import 'package:flutterko/weather/lastupdated.dart';
+import 'package:flutterko/weather/location.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterchannel/weather/bloc.dart';
+import 'package:flutterko/weather/bloc.dart';
 
 class Weather extends StatelessWidget {
   @override

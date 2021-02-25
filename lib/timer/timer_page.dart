@@ -4,10 +4,10 @@
  * ALL rights reserved.
  */
 import 'package:flutter/material.dart';
-import 'package:flutterchannel/timer/timer_widget.dart';
-import 'package:flutterchannel/timer/bloc.dart';
+import 'package:flutterko/timer/timer_widget.dart';
+import 'package:flutterko/timer/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterchannel/timer/ticker.dart';
+import 'package:flutterko/timer/ticker.dart';
 
 class TimerPage extends StatelessWidget {
   @override
