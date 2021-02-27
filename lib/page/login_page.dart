@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+/**
+ * 登陆页面
+ */
 class LoginPage extends StatefulWidget {
   LoginPage({Key key, this.title}) : super(key: key);
 

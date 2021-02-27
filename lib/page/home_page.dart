@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutterko/app.dart';
 import 'package:flutterko/page/channel_page.dart';
+import 'package:flutterko/page/anim_page.dart';
+import 'package:flutterko/app.dart';
+import 'package:flutterko/page/file_page.dart';
 import 'package:flutterko/page/login_page.dart';
+import 'package:flutterko/page/sharedpreference_page.dart';
 import 'package:flutterko/widget/bottom_bar.dart';
+import 'package:flutterko/widget/dialog_loading.dart';
 import 'package:flutterko/widget/draw_widget.dart';
 import 'package:flutterko/widget/viewpager_tab.dart';
 import 'package:flutterko/widget/mytab_controller.dart';
@@ -113,6 +117,49 @@ class _HomePageState extends State<HomePage> {
                         );
                       },
                       child: new Text("channel 页面"),
+                    ),
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new AnimApp(
+                                  title: 'Flutter animation  Page')),
+                        );
+                      },
+                      child: new Text("logo animation 页面"),
+                    ),
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context, new DialogRouter(LoadingDialog(true)),
+                          // new MaterialPageRoute(
+                          //     builder: (context) => LoadingDialog()),
+                        );
+                      },
+                      child: new Text("dialog 弹窗"),
+                    ),
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new SharedPreferencesDemo(
+                                  title: 'Flutter sharepreference  Page')),
+                        );
+                      },
+                      child: new Text("sharepreference 存储"),
+                    ),
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) =>
+                                  new FilePage(title: 'Flutter file  Page')),
+                        );
+                      },
+                      child: new Text("文件 存储"),
                     ),
                     new RaisedButton(
                       onPressed: () {
