@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterko/page/channel_page.dart';
 import 'package:flutterko/page/anim_page.dart';
 import 'package:flutterko/app.dart';
+import 'package:flutterko/page/device_info_page.dart';
 import 'package:flutterko/page/file_page.dart';
 import 'package:flutterko/page/login_page.dart';
 import 'package:flutterko/page/sharedpreference_page.dart';
@@ -177,8 +178,23 @@ class _HomePageState extends State<HomePage> {
 
               break;
             case 1:
-              new RaisedButton(
-                child: new Text("text$position"),
+              return new Container(
+                child: new Column(
+                  children: <Widget>[
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new DeviceInfoPage(
+                                  title: 'Flutter deviceinfo  Page')),
+                        );
+                      },
+                      child: new Text("设备信息"),
+                    ),
+
+                  ],
+                ),
               );
               break;
             case 2:
