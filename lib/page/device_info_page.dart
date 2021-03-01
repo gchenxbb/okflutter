@@ -116,7 +116,7 @@ class _DeviceInfoPageState extends State<DeviceInfoPage> {
                   child: Container(
                     padding: EdgeInsets.all(10),
                     child: Text(
-                      '{$_deviceData[property]}',
+                      '${_deviceData[property]}',
                       maxLines: 10,
                       overflow: TextOverflow.ellipsis,
                     ),
