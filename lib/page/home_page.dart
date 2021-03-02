@@ -4,6 +4,7 @@ import 'package:flutterko/page/anim_page.dart';
 import 'package:flutterko/app.dart';
 import 'package:flutterko/page/device_info_page.dart';
 import 'package:flutterko/page/file_page.dart';
+import 'package:flutterko/page/imagepicker_page.dart';
 import 'package:flutterko/page/login_page.dart';
 import 'package:flutterko/page/sharedpreference_page.dart';
 import 'package:flutterko/widget/bottom_bar.dart';
@@ -191,6 +192,17 @@ class _HomePageState extends State<HomePage> {
                         );
                       },
                       child: new Text("设备信息"),
+                    ),
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new ImagePickerPage(
+                                  title: 'Flutter image picker  Page')),
+                        );
+                      },
+                      child: new Text("获取相册图片"),
                     ),
 
                   ],
