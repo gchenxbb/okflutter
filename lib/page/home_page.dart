@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterko/dartstudy/study_page.dart';
 import 'package:flutterko/page/channel_page.dart';
 import 'package:flutterko/page/anim_page.dart';
 import 'package:flutterko/app.dart';
@@ -69,6 +70,17 @@ class _HomePageState extends State<HomePage> {
               return new Container(
                 child: new Column(
                   children: <Widget>[
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new DartStudyHomePage(
+                                  title: 'Flutter dart study   Page')),
+                        );
+                      },
+                      child: new Text("Dart学习"),
+                    ),
                     new RaisedButton(
                       onPressed: () {
                         Navigator.push(
@@ -158,17 +170,6 @@ class _HomePageState extends State<HomePage> {
                         Navigator.push(
                           context,
                           new MaterialPageRoute(
-                              builder: (context) =>
-                                  new FilePage(title: 'Flutter file  Page')),
-                        );
-                      },
-                      child: new Text("文件 存储"),
-                    ),
-                    new RaisedButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          new MaterialPageRoute(
                               builder: (context) => new App()),
                         );
                       },
@@ -183,6 +184,17 @@ class _HomePageState extends State<HomePage> {
               return new Container(
                 child: new Column(
                   children: <Widget>[
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) =>
+                                  new FilePage(title: 'Flutter file  Page')),
+                        );
+                      },
+                      child: new Text("文件 存储"),
+                    ),
                     new RaisedButton(
                       onPressed: () {
                         Navigator.push(
@@ -210,13 +222,12 @@ class _HomePageState extends State<HomePage> {
                         Navigator.push(
                           context,
                           new MaterialPageRoute(
-                              builder: (context) => new ToastPage(
-                                  title: 'Flutter toast   Page')),
+                              builder: (context) =>
+                                  new ToastPage(title: 'Flutter toast   Page')),
                         );
                       },
                       child: new Text("弹出toast"),
                     ),
-
                   ],
                 ),
               );
