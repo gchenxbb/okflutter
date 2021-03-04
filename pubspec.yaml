@@ -34,6 +34,11 @@ dependencies:
   device_info: ^1.0.0  #设备
   image_picker: ^0.6.7+22  # 相册
   video_player: ^0.10.11+2 #视频 (最新1.0.1，和当前Flutter版本不兼容，编不过)
+  fluttertoast: ^7.1.8 #toast
+
+  #flutter_webview_plugin: any#webview展示
+
+
 
 dev_dependencies:
   flutter_test:

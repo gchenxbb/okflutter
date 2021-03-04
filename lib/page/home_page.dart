@@ -13,6 +13,7 @@ import 'package:flutterko/widget/draw_widget.dart';
 import 'package:flutterko/widget/viewpager_tab.dart';
 import 'package:flutterko/widget/mytab_controller.dart';
 import 'package:flutterko/page/counter_page.dart';
+import 'package:flutterko/page/toast_page.dart';
 
 import 'dart:async';
 import 'dart:ui';
@@ -203,6 +204,17 @@ class _HomePageState extends State<HomePage> {
                         );
                       },
                       child: new Text("获取相册图片"),
+                    ),
+                    new RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new ToastPage(
+                                  title: 'Flutter toast   Page')),
+                        );
+                      },
+                      child: new Text("弹出toast"),
                     ),
 
                   ],
