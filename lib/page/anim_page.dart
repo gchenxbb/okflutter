@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-/**
- * 动画demo
- */
+/// 动画demo
 class AnimApp extends StatefulWidget {
   AnimApp({Key key, this.title}) : super(key: key);
   final String title;
